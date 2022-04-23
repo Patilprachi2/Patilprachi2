@@ -1,0 +1,25 @@
+using System;
+namespace CSharp_Shell
+{
+	public class program
+	{
+		public static void Main()
+		{
+			try
+			{
+				int a=2;
+				int b=0;
+				int c= a/b;
+				Console.WriteLine(c);
+			}
+			catch(Exception e)
+			{
+				Console.WriteLine("exception occured:-"+e);
+			}
+			finally
+			{
+				Console.WriteLine("exception handled");
+			}
+		}
+	}
+}
