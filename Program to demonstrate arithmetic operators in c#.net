@@ -1,0 +1,42 @@
+using System;
+public class operators
+{
+	public void Main()
+	{
+int a,b,c;
+{
+Console.WriteLine("enter value of a=");
+a=Convert.ToInt32(Console.ReadLine());
+}
+{
+	Console.WriteLine("enter value of b=");
+b=Convert.ToInt32(Console.ReadLine());
+}
+{
+c=a+b;
+Console.WriteLine("addition of a and b="+c);
+Console.ReadLine();
+}
+{
+c=a-b;
+Console.WriteLine("substraction of a and b="+c);
+Console.ReadLine();
+}
+{
+c=a/b;
+Console.WriteLine("division of a and b="+c);
+Console.ReadLine();
+}
+{
+c=a*b;
+Console.WriteLine("multiplication of a and b="+c);
+Console.ReadLine();
+}
+{
+c=a%b;
+Console.WriteLine("modulation of a and b="+c);
+Console.ReadLine();
+}
+}
+}
+
